@@ -1,4 +1,4 @@
-# hystrix-example
+# spring-boot-hystrix-example
 
 
 This application explains about how to implement spring boot with hystrix implementation. Basically there are two parts in Hystrix dashboard implementation. One is creating the dashboard and the second one is you're application can able to register to hystrix dashboard. In order to support your application, You need to have a actuator which will emits all the information about your application.(like, service calls, java memory etc.,)
