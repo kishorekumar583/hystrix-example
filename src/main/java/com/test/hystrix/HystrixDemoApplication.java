@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @ComponentScan
 @RestController
 @EnableHystrix
+@EnableHystrixDashboard
 @EnableDiscoveryClient
 public class HystrixDemoApplication {
 
